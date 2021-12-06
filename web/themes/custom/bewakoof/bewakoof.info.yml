@@ -1,0 +1,15 @@
+name: Bewakoof
+type: theme
+base theme: classy
+description: This is my Custom Theme practice
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: custom
+
+libraries:
+  - bewakoof/global
+
+regions:
+  header: Header
+  content: 'Content'
+  footer: 'Footer'
