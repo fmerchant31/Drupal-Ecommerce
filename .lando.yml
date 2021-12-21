@@ -20,3 +20,5 @@ tooling:
     service: node
   npm:
     service: node
+  gulp:
+    service: node

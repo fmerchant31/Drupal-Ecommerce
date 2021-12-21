@@ -1,0 +1,18 @@
+.region-secondary-menu{
+    .menu{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    .menu-item{
+        padding-left: 80px;
+    }
+   
+    a:hover{
+        border-bottom: solid 3px #ffd835; 
+        text-decoration: none;
+        color:black; 
+    }
+ }
+    
+
+}

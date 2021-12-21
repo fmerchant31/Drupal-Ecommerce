@@ -1,0 +1,23 @@
+
+.header-region{
+    height: 30px;
+    background-color: rgb(192, 189, 190);
+    display:flex;
+    justify-content: space-around;
+    a{font-size: 10px;}
+    .menu{
+        display: flex;
+        
+        .menu-item{
+            padding-left:40px;
+        }
+    }
+
+
+    // text-decoration: none;
+    
+}
+// .menu{
+//     display: flex;
+//     justify-content: space-around;
+// }

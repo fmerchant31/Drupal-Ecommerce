@@ -3,7 +3,7 @@ const sass = require("gulp-sass")(require("sass"));
 const jshint = require("gulp-jshint");
 function style() {
   return gulp
-    .src("./src/sass/**/*.scss")
+    .src("./src/scss/**/*.scss")
     .pipe(sass())
     .on("error", sass.logError)
     .pipe(gulp.dest("./dist/css"));

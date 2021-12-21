@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:wght@100&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+.header-region {
+  height: 30px;
+  background-color: #c0bdbe;
+  display: flex;
+  justify-content: space-around;
+}
+.header-region a {
+  font-size: 10px;
+}
+.header-region .menu {
+  display: flex;
+}
+.header-region .menu .menu-item {
+  padding-left: 40px;
+}
+
+.region-footer {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  color: #fdd835;
+}
+.region-footer a {
+  color: white;
+}
+.region-footer h1 {
+  margin-bottom: 2px;
+}
+.region-footer h2 {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.menu {
+  padding-left: 40px;
+}
+
+.region-footer1 {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  border-bottom-style: solid;
+  border-bottom-color: #c4c4c4;
+  border-bottom-width: 2px;
+}
+.region-footer1 p, .region-footer1 h2 {
+  color: white;
+}
+.region-footer1 h2 {
+  font-size: 15px;
+  color: #fdd835;
+}
+
+.region-footer2 {
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px 60px 0;
+}
+.region-footer2 ul.menu {
+  margin-left: 0em;
+}
+.region-footer2 .menu-item--expanded li:first-child > a {
+  color: yellowgreen;
+}
+.region-footer2 a {
+  color: white;
+}
+
+.region-footer3 {
+  background-color: #181818;
+  padding: 0 60px 0 60px;
+}
+.region-footer3 h5, .region-footer3 p {
+  color: #f0eaea;
+}
+.region-footer3 a {
+  color: aqua;
+}
+
+.region-primary-menu {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style: solid;
+  border-bottom-color: #c4c4c4;
+  border-bottom-width: 1px;
+  color: black;
+}
+.region-primary-menu .menu-item {
+  display: contents;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.region-primary-menu .dropdown-toggle a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: solid 3px #ffd835;
+}
+.region-primary-menu #block-login .menu .menu-item {
+  display: contents;
+  padding-left: 10px;
+  background-color: aqua;
+}
+.region-primary-menu .tb-megamenu .nav > li > a, .region-primary-menu .tb-megamenu .nav > li > span.tb-megamenu-no-link {
+  color: black;
+  background-color: #ffff;
+}
+.region-primary-menu .tb-megamenu .nav > li > a, .region-primary-menu .tb-megamenu .nav > li > span.tb-megamenu-no-link {
+  border: none;
+}
+.region-primary-menu .dropdown-toggle::after {
+  border: none;
+}
+.region-primary-menu .dropdown-toggle::after {
+  border: none;
+}
+.region-primary-menu .tb-megamenu .dropdown-menu {
+  border: none;
+}
+.region-primary-menu .tb-megamenu-item {
+  border: none;
+}
+.region-primary-menu .open {
+  color: black;
+}
+
+.tb-megamenu .nav li .dropdown .open > .dropdown-toggle:hover {
+  color: black;
+}
+
+.region-secondary-menu .menu {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+}
+.region-secondary-menu .menu .menu-item {
+  padding-left: 80px;
+}
+.region-secondary-menu .menu a:hover {
+  border-bottom: solid 3px #ffd835;
+  text-decoration: none;
+  color: black;
+}

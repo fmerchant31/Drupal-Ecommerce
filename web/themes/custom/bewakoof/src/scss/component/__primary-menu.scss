@@ -1,0 +1,53 @@
+.region-primary-menu{
+    
+    display: flex;
+    justify-content: space-around;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(196, 196, 196);
+    border-bottom-width: 1px;
+    color:black ;
+    .menu-item{
+       display: contents;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+    .dropdown-toggle{a:hover{
+        color: black;
+        text-decoration: none;
+        border-bottom: solid 3px #ffd835; 
+
+    }}
+    #block-login .menu .menu-item{
+        display: contents;
+        padding-left: 10px;
+        background-color: aqua;}
+        //justify-content: space-around;
+   
+     .tb-megamenu .nav > li > a, .tb-megamenu .nav > li > span.tb-megamenu-no-link{
+         color: black;
+         background-color: #ffff;
+    }
+    .tb-megamenu .nav > li > a, .tb-megamenu .nav > li > span.tb-megamenu-no-link{
+        border: none;
+    }
+    .dropdown-toggle::after{
+        border: none;
+    }
+    .dropdown-toggle::after{
+        border:none;
+    }
+    .tb-megamenu .dropdown-menu{
+        border: none;
+    }
+    .tb-megamenu-item{
+        border: none;
+    }
+    
+    .open{
+        color: black;
+    }
+    
+}
+.tb-megamenu .nav li .dropdown .open > .dropdown-toggle:hover{
+    color: black;
+}

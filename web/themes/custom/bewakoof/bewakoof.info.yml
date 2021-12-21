@@ -11,5 +11,10 @@ libraries:
 
 regions:
   header: Header
+  primary_menu: 'primary-menu'
+  secondary_menu: 'secondary-menu'
   content: 'Content'
   footer: 'Footer'
+  footer1: 'Footer1'
+  footer2: 'Footer2'
+  footer3: 'Footer3'
